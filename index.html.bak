@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+
+      crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Prompt:wght@200&amp;family=Sarabun:wght@200&amp;display=swap"
+
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="body">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+
+crossorigin="anonymous"></script>
+    <script>
+function myFunction() {
+  var x = document.getElementById("mymenu");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
+</script>
+    <!--Nav Start-->
+    <nav>
+      <div class="container">
+        <div class="nav-con">
+          <div class="logo"><a href="index.html"><img src="images/home_logo02.svg"
+
+                alt="Logo" class="mb-1 p-0" width="30">&nbsp;YUWADEE</a></div>
+          <ul class="menu" id="mymenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Nav End-->
+    <!--Banner Start-->
+    <section class="banner">
+      <div class="banner-info">
+        <h4>WELCOME TO MY SITE</h4>
+        <h1> YUWADEE UNGKASAYAWAT </h1>
+        <p> UX | UI Designer </p>
+        <h5><br>
+        </h5>
+        <a href="./files/CV.pdf" class="btn btn-outline-light" tabindex="-1" role="button"
+
+          aria-disabled="true" target="blank">Download CV</a></div>
+    </section>
+    <!--Banner End-->
+    <!--Main Start-->
+    <main>
+      <div>
+        <div class="abit"><img src="images/person01.svg" class="img-fluid" alt="person icon">
+          <h5>A BIT ABOUT ME</h5>
+          <p> Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum. </p>
+          <a href="#" class="btn btn-outline-dark" tabindex="-1" role="button" aria-disabled="true"
+
+            target="blank">More About Me</a></div>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleCaptions"
+
+            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+
+            aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleCaptions"
+
+            data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"> <img src="images/mirror02.jpg" class="d-block w-100"
+
+              alt="...">
+            <div class="carousel-caption d-none d-md-block"> <img src="images/work-icon.svg"
+
+                alt="work-icon">
+              <p>Design and paint a picture with acrylic paint on<br>
+                a restaurant's glass wall.</p>
+            </div>
+          </div>
+          <div class="carousel-item"> <img src="images/uni03-1.jpg" class="d-block w-100"
+
+              alt="...">
+            <div class="carousel-caption d-none d-md-block"> <img src="images/art-icon.svg"
+
+                alt="art-icon">
+              <p>Designing, sketching, and painting the facade scene for<br>
+                Silpakorn University's Science Week 2022.</p>
+            </div>
+          </div>
+          <div class="carousel-item"> <img src="images/sketch01square.jpg" class="d-block w-100"
+
+              alt="...">
+            <div class="carousel-caption ">
+              <div><img src="images/drawing-tablet-icon.svg" alt="drawing-tablet-icon"></div>
+              <div>
+                <p>Use Procreate app for designing and sketching.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+
+            data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next"
+
+            type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span> </button> </div>
+      </div>
+    </main>
+    <!--Mian End-->
+    <!--Footer Start-->
+    <footer>
+      <div class="contactall">
+        <div class="contact"> <img src="..." class="img-fluid" alt="...">
+          <h3> gjkf gfjg f gjf fgkjf f gkjfkg fgkjfk </h3>
+        </div>
+      </div>
+      <p> Copyright 2023. Made by Yuwadee Ungkasayawat </p>
+    </footer>
+    <!--Footer End-->
+    
+  </body>
+</html>

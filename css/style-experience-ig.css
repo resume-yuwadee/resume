@@ -5,7 +5,7 @@
   }
 
   .bg-image{
-    background-image: url("..//images/ig-banner.JPG");
+    background-image: url("..//images/ig-banner.jpg");
     background-repeat: no-repeat;
     background-position:center 0px; 
     background-size:cover ;
@@ -14,7 +14,7 @@
 
   @media screen and (max-width: 800px){
     .bg-image{
-      background-image: url("..//images/ig-banner.JPG");
+      background-image: url("..//images/ig-banner.jpg");
       background-position:center 0px;
       background-color: #F5F5F5;
       background-size:cover ;
@@ -23,7 +23,7 @@
 
   @media screen and (max-width: 480px){
     .bg-image{
-      background-image: url("..//images/ig-banner.JPG");
+      background-image: url("..//images/ig-banner.jpg");
       background-position:center 0px;
       background-color: #F5F5F5;
       background-size:cover ;

@@ -348,7 +348,7 @@ a{
   }
 }
 
-.carousel{/border: 1px solid red;
+.carousel{
   text-align: center;
   align-items: center;
   padding-right:80px;
@@ -374,7 +374,7 @@ a{
   border-radius: 4%;
 }
 
-.carousel-caption {/border: 1px solid red;
+.carousel-caption {
   border-radius: 10px;
   color: #000000 ;
   background-color:#F5F5F5;
@@ -402,7 +402,7 @@ a{
 .carousel-control-next{/border: 1px solid red;
 }
 
-footer{/border: 1px solid red;
+footer{
   background-color: #1C1C1C;
   opacity:0.7px;
   color:#F5F5F5;
@@ -412,14 +412,14 @@ footer{/border: 1px solid red;
   
 }
 
-.contactall{/border: 1px solid red;
+.contactall{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom:px;
   margin-top: 10px;
 }
 
-.contact i{/border: 1px solid red;
+.contact i{
   font-size: 30px;
   padding-bottom: 10px;
 }
@@ -430,13 +430,13 @@ footer{/border: 1px solid red;
   padding-bottom: 5px;
 }
 
-.copyright{/border: 1px solid red;
+.copyright{
   font-family: 'Poppins', sans-serif;
   font-size: 0.8rem;
 }
 
 @media screen and (max-width:700px){
-  .contact i{/border: 1px solid red;
+  .contact i{/
     font-size: 20px;
     padding-bottom: 10px;
   }
@@ -444,14 +444,14 @@ footer{/border: 1px solid red;
     font-family: 'Poppins', sans-serif;
     font-size: 0.85rem;
   }
-  .copyright{/border: 1px solid red;
+  .copyright{
     font-family: 'Poppins', sans-serif;
     font-size: 0.6rem;
   }
 }
 
 @media screen and (max-width:480px){
-  .contactall{/border: 1px solid red;
+  .contactall{
     display:inline;
     margin-top: 10px;
   }
@@ -460,7 +460,7 @@ footer{/border: 1px solid red;
     padding-right:10px;
     padding-left: 10px;
   }
-  .contact i{/border: 1px solid red;
+  .contact i{
     margin-right: 10px;
     font-size: 15px;
   }
@@ -470,7 +470,7 @@ footer{/border: 1px solid red;
     font-size: 10px;
     padding-bottom: 5px;
   }
-  .copyright{/border: 1px solid red;
+  .copyright{
     font-family: 'Poppins', sans-serif;
     font-size: 5px;
     margin:0;
